@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<title>Simple Landing Page</title>
+</head>
+<body>
+<input type="checkbox" class="ButtonCheckbox" id="CloseMenu" role="button"
+aria-label="Close menu" aria-pressed="true">
+<label class="CloseMenuLabel" for="CloseMenu" title="close menu"></label>
+<div id="DivOne" class="DivContainer DivBackground">
+<aside>
+<nav>
+<h2><a href="#" onclick="getElementById('CloseMenu').checked = false;">LOGO</a></h2>
+<ul onclick="getElementById('CloseMenu').checked = false;">
+<li><a href="#DivTwo">intro</a></li>
+<li><a href="#DivThree">top 3</a></li>
+<li><a href="#DivFour">gallery</a></li>
+<li><a href="#DivFive">work</a></li>
+<li><a href="#DivSeven">contact</a></li>
+</ul>
+</nav>
+</aside>
+<span class="SimpleSpace"></span>
+
+<div class="intro">
+<div class="main-content">
+<div class="intro-text">
+<h1 class="mark">January brings us Firefox 85</h1>
+<p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+</div>
+
+<div class="introimg"><img src="/assets/img/undraw_static-assets_di5m.svg" alt="Undraw HTML, CSS and JS svg layout"></div>
+</div>
+</div>
+</div>
+
+
+<div id="DivTwo" class="DivContainer">
+
+<div class="SectionContainerOne">
+<h2 class="mark">TOP 3 JOBS</h2>
+<p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+<p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+<p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
+</div></div>
+
+<div id="DivThree" class="DivContainer DivBackground">
+<div class="GridAnchor">
+<div class="AnchorOne">
+<h2 class="mark">TOP 3 JOBS</h2>
+<p>Here are some recent work.</p>
+</div>
+<div class="SectionDivThree">
+
+<article>
+<h3>First</h3>
+<p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+</article>
+
+<article>
+<h3>Another site</h3>
+<p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+</article>
+
+<article>
+<h3>Third one</h3>
+<p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+</article>
+
+</div>
+</div>
+</div>
+
+<div id="DivFour" class="DivContainer">
+<div class="GridAnchor">
+<div class="AnchorOne">
+<h2 class="mark">GALLERY</h2>
+<p>Here are some of my pics.</p>
+</div>
+<div class="SectionDivThree">
+
+<div><img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random photo from Austin Chan"></div>
+
+<div><img src="https://images.unsplash.com/photo-1712566795565-b3ec87ce29b5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random photo from MARK ADRIANE"></div>
+
+<div><img src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random photo from ian dooley"></div>
+
+<div><img src="https://images.unsplash.com/photo-1717141612418-2757fe6a5748?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="MD Rahat Kabir"></div>
+
+<div><img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lesly Juarez"></div>
+
+<div><img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="RhondaK Native Florida Folk Artist"></div>
+</div>
+</div>
+</div>
+
+<div id="DivFive" class="DivContainer DivBackground">
+<div class="GridAnchor">
+<div class="AnchorOne">
+<h2 class="mark">RECENT JOBS</h2>
+<p>Here are some recent work.</p>
+</div>
+<div class="SectionDivThree">
+
+<article>
+<h3>A good one</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
+</article>
+
+<article>
+<h3>Great job</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
+</article>
+
+<article>
+<h3>The best</h3>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
+</article>
+
+</div>
+</div>
+</div>
+
+<div id="DivSix" class="DivContainer">
+<div class="SectionContainerOne">
+<header>
+<h2 class="mark">PRICING</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate repellat, rem perferendis velit nisi quod, omnis accusamus alias, dicta eligendi et distinctio magni sit quibusdam modi minus ipsum placeat!</p>
+</header>
+<div class="Table">
+<table>
+<caption>Pricing table</caption>
+<thead>
+<tr>
+<th>Title 1</th>
+<th>Title 2</th>
+<th>Title 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content 1</td>
+<td>Content 2</td>
+<td>Content 3</td>
+</tr>
+<tr>
+<td>Content 1</td>
+<td>Content 2</td>
+<td>Content 3</td>
+</tr>
+<tr>
+<td>Content 1</td>
+<td>Content 2</td>
+<td>Content 3</td>
+</tr>
+<tr>
+<td rowspan="2">SPAN DOWN</td>
+<td>Content 2</td>
+<td>Content 3</td>
+</tr>
+<tr>
+<td>Content 2</td>
+<td>Content 3</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="3">Footer 1</td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+
+
+<div id="DivSeven" class="DivContainer DivBackground">
+
+<div class="intro">
+<div class="main-content">
+<div class="intro-text">
+<h2 class="mark">Contact us</h2>
+<p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+</div>
+
+<div class="introimg"><img src="/assets/img/undraw_messaging_1s2k.svg" alt="Undraw computer screen"></div>
+
+<div class="form-contact">
+<fieldset class="form-align">
+<legend>Contact form</legend>
+
+<div class="form-group">
+<label for="first-name">First Name: </label>
+<input type="text" id="first-name" name="first-name" placeholder="Your name">
+</div>
+
+<div class="form-group">
+<label for="last-name">Last Name: </label>
+<input type="text" id="last-name" name="last-name" placeholder="Your last name">
+</div>
+
+<div class="form-group">
+<label for="Email">Email: </label>
+<input type="email" id="Email" name="Email" placeholder="Your good email">
+</div>
+
+<div class="full-width">
+<label for="text-area">Send your message</label>
+<textarea name="text-area" id="text-area" style="width: 100%; height: 109px; padding: 1.5rem 2rem;"
+placeholder="Type here your message: "></textarea>
+</div>
+
+<div class="full-width">
+<button type="submit">Send message</button></div>
+
+</fieldset>
+</div>
+</div>
+</div></div>
+
+<footer class="">
+<p><a rel="nofollow noferrer" target="_blank" href="https://linktr.ee/risuunn">Made with <span class="heart">❤</span> by rissunn.</a></p>
+</footer>
+
+<a href="#DivOne" class="reload" onclick="getElementById('CloseMenu').checked = false;">↑</a>
+</body>
